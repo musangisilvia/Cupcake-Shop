@@ -1,70 +1,106 @@
 html {
-  margin: 5px;
+    margin: 5px;
 }
+
 .logo img {
-  display: none;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 300px;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 300px;
 }
+
 .tp {
-  background-image: url(img/cover.png);
-  background-size: cover;
-  backface-visibility: hidden;
-  height: 400px;
+    background-image: url(img/cover.png);
+    background-size: cover;
+    backface-visibility: hidden;
+    height: 400px;
 }
+
 .nav1:hover {
-  background-color: #FF748A;
+    background-color: #FF748A;
 }
+
 .nav2:hover {
-  background-color: #FF748A;
+    background-color: #FF748A;
 }
+
 .nav3:hover {
-  background-color: #FF748A;
+    background-color: #FF748A;
 }
+
 .nav1 {
-  border-color: #FF748A;
-  text-align: center;
-  background-color: grey;
-  padding: 2px;
+    border-color: #FF748A;
+    text-align: center;
+    background-color: grey;
+    padding: 2px;
 }
+
 .nav2 {
-  border-color: #FF748A;
-  text-align: center;
-  background-color: grey;
-  padding: 2px;
+    border-color: #FF748A;
+    text-align: center;
+    background-color: grey;
+    padding: 2px;
 }
+
 .nav3 {
-  border-color: #FF748A;
-  text-align: center;
-  background-color: grey;
-  padding: 2px;
+    border-color: #FF748A;
+    text-align: center;
+    background-color: grey;
+    padding: 2px;
 }
+
 .spcl img {
-  width: 400px;
-  height: 300px;
-  box-shadow: 2px;
-  margin: 3px;
-  box-shadow: 10px 10px 5px #888888;
-  padding: 2px solid white;
+    width: 400px;
+    height: 300px;
+    box-shadow: 2px;
+    margin: 3px;
+    box-shadow: 10px 10px 5px #888888;
+    padding: 2px solid white;
 }
+
 .spcl {
-  display: none;
-  padding: 20px;
-  margin: 5px;
-  border: 2px solid #FF748A;
-  font-family: 'Times';
+    display: none;
+    padding: 20px;
+    margin: 5px;
+    border: 2px solid #FF748A;
+    font-family: 'Times';
 }
+
 .newt {
-  display: none;
-  padding: 20px;
-  margin: 5px;
-  border: 2px solid #FF748A;
-  font-family: 'Times';
+    display: none;
+    padding: 20px;
+    margin: 5px;
+    border: 2px solid #FF748A;
+    font-family: 'Times';
 }
+
 .gallery {
-  display: none;
-  padding: 20px;
-  margin: 5px;
-  border: 2px solid #FF748A;
+    display: none;
+    padding: 20px;
+    margin: 5px;
+    border: 2px solid #FF748A;
+}
+
+.join {
+    background-image: url(./img/smarties.jpg);
+    background-size: cover;
+}
+
+label {
+    color: white;
+    font-size: 24pt;
+    text-align: center;
+}
+
+input {
+    border-radius: 5px;
+    width: 600px;
+    opacity: 0.7;
+}
+
+.btn {
+    font-size: 14pt;
+    border: 3px solid #FF748A;
+    background-color: white;
+    border-radius: 3px;
 }
